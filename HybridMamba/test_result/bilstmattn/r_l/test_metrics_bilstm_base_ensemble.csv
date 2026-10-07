@@ -1,2 +1,0 @@
-Model,ACC,Sn,Sp,Pre,F1,MCC,ROC_AUC,PR_AUC
-bilstm_base_Ensemble,0.8085,0.8167,0.8002,0.8035,0.8100,0.6170,0.8888,0.8797

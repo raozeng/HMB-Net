@@ -1,2 +1,0 @@
-Model,ACC,Sn,Sp,Pre,F1,MCC,ROC_AUC,PR_AUC
-transformer_Ensemble,0.7711,0.7944,0.7478,0.7590,0.7763,0.5428,0.8515,0.8397

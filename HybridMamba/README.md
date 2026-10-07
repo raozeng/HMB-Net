@@ -1,1 +1,0 @@
-/home/zengrao/ffrearch1/pyenv/bin/python /home/zengrao/ffrearch1/zr/HybridMamba/run.py --mode all --model_type resnet --train_data 'zr/data/train/benchmark/RMBase_m_m6A.fa' --test_data 'zr/data/test/independent/RMBase_m_m6A_Test.fa' --model_dir 'zr/HybridMamba/train_model/resnet/RMBase_m_m6A' --result_dir 'zr/HybridMamba/test_result/resnet/RMBase_m_m6A' --epochs 30
