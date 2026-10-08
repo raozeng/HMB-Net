@@ -9,8 +9,6 @@
   - `model.py`: Model architecture blueprint containing HMB-Net, specific ablation components (BiLSTMOnly, MambaOnly, R-HMB-Net), and a suite of baseline implementations.
   - `train.py` / `test.py`: Modular training (K-Fold CV) and isolated testing engines.
   - `dataset.py`: Memory-efficient FASTA processors and k-mer encoders.
-  - `plot_radar_table3.py`, `plot_ablation_figs.py`, `build_inter_grids.py`...: A vast array of high-fidelity LaTeX-compatible subfigure PDF generators rendering PCA manifolds, attribution gradients, model calibration probabilities, and architectural performance jumps.
-- `paper/`: The complete finalized manuscript source wrapped iteratively for external scientific submission natively mirroring the experimental benchmarks.
 
 ## Environment Installation
 Ensure a properly configured CUDA-enabled Python environment (Python 3.8+ recommended). Note that Mamba is extensively reliant on PyTorch CUDA extensions.
