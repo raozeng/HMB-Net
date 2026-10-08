@@ -3,12 +3,7 @@
 ## Introduction
 **HMB-Net** is an interpretable hybrid deep learning framework for accurate site-level identification of RNA modifications (m6A, m5C, and m1A) across species. It overcomes the bottleneck of simultaneously mapping vast long-range nucleotide dependencies and microscopic local structural motifs. By synergizing the linear sequence dynamics of lower-complexity **State Space Models (Mamba)** with the localized gating mechanisms of **Bi-directional LSTMs (Bi-LSTMs)**, HMB-Net leverages a specialized "Latent-to-Motif" sequential hierarchical architecture to outclass orthodox parallel topologies and computationally heavy attention layers.
 
-## Repository Structure
-- `code/`: Core Python machine-learning pipeline.
-  - `run.py`: The unified execution portal.
-  - `model.py`: Model architecture blueprint containing HMB-Net, specific ablation components (BiLSTMOnly, MambaOnly, R-HMB-Net), and a suite of baseline implementations.
-  - `train.py` / `test.py`: Modular training (K-Fold CV) and isolated testing engines.
-  - `dataset.py`: Memory-efficient FASTA processors and k-mer encoders.
+
 
 ## Environment Installation
 Ensure a properly configured CUDA-enabled Python environment (Python 3.8+ recommended). Note that Mamba is extensively reliant on PyTorch CUDA extensions.
