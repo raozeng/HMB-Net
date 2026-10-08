@@ -24,7 +24,7 @@ pip install -r requirements.txt
 Launch a full 5-fold cross-validation loop. Supported models include `hybrid` (HMB-Net), `bilstm`, `mamba`, `reverse` (R-HMB-Net), and `transformer`.
 
 ```bash
-python code/run.py \
+python run.py \
     --mode train \
     --model_type hybrid \
     --train_data path/to/train_dataset.fasta \
@@ -37,7 +37,7 @@ python code/run.py \
 Load the heaviest model dictionary and deploy it onto blind sequences.
 
 ```bash
-python code/run.py \
+python run.py \
     --mode test \
     --model_type hybrid \
     --test_data path/to/independent_test_dataset.fasta
